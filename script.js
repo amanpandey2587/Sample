@@ -13,7 +13,7 @@ oldTab.classList.add("current-tab");
 
 // Check whether something is pending or not 
 getfromSessionStorage();
-
+//Code
 function switchTab(newTab) {
     if (newTab != oldTab) {
         oldTab.classList.remove("current-tab");
